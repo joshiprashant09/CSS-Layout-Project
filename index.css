@@ -1,0 +1,133 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #191717;
+}
+img{
+    width: 25vw;
+    height: 30vh;
+    padding: 5px;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: max-content;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+header p{
+    color: aliceblue;
+}
+header button{
+    background-color: aliceblue;
+    color: #1F2544;
+    width:25vh;
+    height:38px;
+    margin-top: 10px;
+    border: 1px solid #2b2eee;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.center_content{
+    background-color: #d0d0d0;
+    position: relative;
+    width: 63%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px rgb(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    font-size: large;
+}
+
+.right_side{
+    background-color: #d0d0d0;
+    position: absolute;
+    width: 35%;
+    height: 200vh;
+    right: 0;
+    top: 0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 8px 8px rgb(0,0,0,0.1);
+    margin-right: 10px;
+}
+
+.alert button{
+    background-color: #5f28be;
+    color: white;
+    position: absolute;
+    top:19px;
+    right: 17px;
+    width: 70px;
+    height: 40px;
+    border: none;
+    margin: 10px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;;
+}
+.content{
+    margin-bottom: 20px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+header button:hover{
+    color: white;
+    background-color: #6d6d6d;
+    border: 2px solid #ffe100;
+}
+
+.alert button:hover{
+    border: 0.5px solid yellow;
+    background-color: #7f2fc4;
+}
+
+header button:active{
+    color: rgb(0, 0, 0);
+    background-color: #cecece;
+    border: 1px solid #ffe100;
+}
+
+.alert button:active{
+    background-color: #2f2feb;
+}
+
+.follow{
+    position: fixed;
+    bottom: 0;
+    width: 500px;
+}
+
+.follow button{
+    background-color: #ff4545;
+    color: aliceblue;
+    padding: 14px 20px;
+    font-size: large;
+    cursor: pointer;
+    width: 100%;
+}
+
+.follow button:hover{
+    background-color: #f64505;
+}
